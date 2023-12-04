@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/301b10eeac.js" crossorigin="anonymous"></script>
+    <title>Navbar with Dropdown and Search</title>
+</head>
+
+<body>
+    <!-- Search button -->
+    <div class="container">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Masukan Kata Kunci Yang Ingin Dicari"
+                aria-label="Search">
+            <button class="btn btn-outline-success " type="submit">Search</button>
+        </form>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="#" class="navbar-brand m-md-5 m"></a><img src="bni-logo-id.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHome" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownHome">
+                            <li><a class="dropdown-item fw-bold" href="#">Kabar BNI</a></li>
+                            <li><a class="dropdown-item" href="#">Berita</a></li>
+                            <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                            <li><a class="dropdown-item" href="#">Berita Penggadaan</a></li>
+                            <li><a class="dropdown-item" href="#">Tips & Edukasi</a></li>
+                            <li><a class="dropdown-item" href="#">Sexurity Awarness</a></li>
+                            <li><a class="dropdown-item" href="#">Berkarier di BNI</a></li>
+                            <li><a class="dropdown-item" href="#">Lelang Sita Gunaan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Individu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                            <li><a class="dropdown-item" href="#">Simpanan</a></li>
+                            <li><a class="dropdown-item" href="#">Simpanan Berjangka & DPLK</a></li>
+                            <li><a class="dropdown-item" href="#">Pinjaman</a></li>
+                            <li><a class="dropdown-item" href="#">Kartu Kredit</a></li>
+                            <li><a class="dropdown-item" href="#">Simulasi</a></li>
+                            <li><a class="dropdown-item" href="#">Lainnya</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            UMKM
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="#">X-Pora</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Korporaso
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                            <li><a class="dropdown-item" href="#">Perbankan Korporasi</a></li>
+                            <li><a class="dropdown-item" href="#">Internationak</a></li>
+                            <li><a class="dropdown-item" href="#">Tresuri</a></li>
+                            <li><a class="dropdown-item" href="#">Solusi Whosale</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMore" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            MWeal
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMore">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContact" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            E-Banking
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownContact">
+                            <li><a class="dropdown-item" href="#">BNI ATM</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Phone Banking</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Agen 46</a></li>
+                            <li><a class="dropdown-item" href="#">BNI SMS Notifikasi</a></li>
+                            <li><a class="dropdown-item" href="#">BNI SMS Banking</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Mobile Banking</a></li>
+                            <li><a class="dropdown-item" href="#">TAP CASH</a></li>
+                            <li><a class="dropdown-item" href="#">BNI iPay</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Smart Pay</a></li>
+                            <li><a class="dropdown-item" href="#">EDC BNI</a></li>
+                            <li><a class="dropdown-item" href="#">Layanan Gerak</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Debit Online</a></li>
+                            <li><a class="dropdown-item" href="#">Qris</a></li>
+                            <li><a class="dropdown-item" href="#">Internet Payment Gateway</a></li>
+                            <li><a class="dropdown-item" href="#">BNI Internet Banking</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="PESAN BNI.jpg" alt="Los Angeles"
+                        class="w-100 d-flex justify-content-center align-items-center">
+                </div>
+                <div class="carousel-item">
+                    <img src="SMS BNI.png" alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="whoosh bni.png" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="cachbankBNI.jpg" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="CASHBANK ABU.jpg" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="BAYAR KULIAH.jpg" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="nyicilbni.jpg" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button><br><br>
+    </div>
+    <div class="container">
+        <div class="box-icon">
+            <a href="https://www.bni.co.id/id-id/bantuan-dukungan/pencari-lokasi/digics"><i
+                    class="fa-solid fa-computer fa-2xl" style="color: #f86307;"></i></i><br>digiCS</a>
+            <a href="https://www.bni.co.id/id-id/bukatabungandigital"><i class="fa-solid fa-mobile fa-2xl"
+                    style="color: #f86307;"></i></i><br>Buka Tabunhgan Digital</a>
+            <a href="https://www.bni.co.id/id-id/bantuan-dukungan/pencari-lokasi/cabang-beroperasi"><i
+                    class="fa-solid fa-building-columns fa-2xl" style="color: #f86307;"></i><br>Buka/Tutup
+                Sementara Kantor Cabang</a>
+            <a href="https://www.bni.co.id/id-id/umkm/xpora"><i class="fa-solid fa-laptop fa-2xl"
+                    style="color: #f86307;"></i><br>BNI Xpora</a>
+            <a href="https://www.bni.co.id/id-id/individu/simulasi"><i class="fa-solid fa-calculator fa-2xl"
+                    style="color: #f86307;"></i><br>Simulasi Cicilan</a>
+            <a href="https://www.bni.co.id/id-id/bantuan-dukungan/kontak-bni/bni-call"><i
+                    class="fa-solid fa-phone fa-2xl" style="color: #f86307;"></i><br>1500046<br>BNI CALL</a>
+            <a href="https://www.bni.co.id/id-id/bantuan-dukungan/pencari-lokasi"><i
+                    class="fa-solid fa-location-dot fa-2xl" style="color: #f86307;"></i><br>Pencari Lokasi
+                BNI</a>
+        </div> <br><br>
+    </div>
+    <div class="container">
+        <div class="cari-tahu">
+            <div class="info-bni"><br><br>
+                <span class="fs-4">Cari Tahu Tentang</span>
+                <select name="informasibni" id="informasibni">
+                    <option value="satu">Informasi BNI Taplus</option>
+                    <option value="dua">Informasi BNI Taplus Muda</option>
+                    <option value="tiga">Informasi BNI Deposito</option>
+                    <option value="empat">Informasi e-banking Mengenai ATM</option>
+                    <option value="lima">Informasi e-banking BNI MengenaiSMS Banking</option>
+                    <option value="enam">Informasi e-banking BNI Mengenai Mobile Banking</option>
+                    <option value="tujuh">Informasi ebanking BNI Mengenai Phone Banking</option>
+                    <option value="tujuh">Informasi e-banking Mengenai Tapcash </option>
+                </select>
+
+                <input type="button" class="tombol-bantuan" value="Bantuan">
+            </div>
+        </div>
+    </div>
+    </div><br><br>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>2 Card Responsif - Bootstrap 5</title>
+    </head>
+
+    <body>
+
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="bni-internet-banking-corporate.jpg" class="card-img-top" alt="Gambar 1">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center">Login</h3>
+                            <a href="#" class="btn btn-primary text-center ">Internet Banking Individu</a>
+                            <a href="#"
+                                class="btn btn-primary text-center align-items-center justify-content-beetwen">Internet
+                                Banking Koorporasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="container">
+            <h4 class="text-center">BNI Mobile Banking</h4>
+        </div><br><br>
+
+
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <!-- Panel 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            BNI Mobile Banking
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            BNI Mobile Banking memiliki beragam fasilitas yang memudahkan transaksi Anda seperti
+                            Transfer, e-Wallet, Pembayaran, Pembelian, Investasi, Digital Loan, Mobile Tunai, dan masih
+                            banyak lagi.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Transfer
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse bg-light" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kemudahan metode Transfer yang tersedia di BNI Mobile Banking seperti Transfer Antar
+                            Rekening Sendiri, Transfer Antar BNI, Transfer Antar Bank, Dana Pensiun/BNI Simponi, Virtual
+                            Account Billing, danInternational Remittance.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            E-Wallet
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kemudahan isi ulang berbagai jenis e-Wallet seperti BNI Tapcash, LinkAja, Go-Pay, ShopeePay,
+                            OVO, DANA, dan i.saku.
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="Tapcash.png" class="" alt="...">
+                                    <div class="card-body">
+
+                                        <p class="card-text text-center">Tapcash
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Link aja.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+
+                                        <p class="card-text text-center">Link aja</p>
+
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="Gopay.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+
+                                        <p class="card-text text-center ">Gopay</p>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="Shoppepay.png" class="card-img-top text-center" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-center">Shopeepay</p>
+
+
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="OVO.png" class="card-img-top text-center" alt="...">
+                                    <div class="card-body">
+
+                                        <p class="card-text text-center">ovo</p>
+
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="DANA.png" class="card-img-top text-center" alt="...">
+                                    <div class="card-body">
+
+                                        <p class="card-text text-center">Dana</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Mobile Tunai
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kemudahan Tarik Tunai tanpa Kartu ATM di berbagai Channel (ATM BNI, Agen46, ATM Bank Lain)
+                            dan Merchant yang bekerja sama dengan BNI (Indomaret, Alfamart, Alfamidi, AlfaExpress,
+                            Lawson, dan DAN-DAN).
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Pembayaran
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kemudahan melakukan Pembayaran berbagai tagihan di BNI Mobile Banking seperti Kartu Kredit
+                            BNi, Kartu Kredit Bank Lain, Telepon Paska Bayar, Listrik, Multifinance, PDAM & IPL,
+                            Asuransi, Pajak, ZIS& Qurban, dan masih banyak lagi.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Pembelian
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Kemudahan melakukan berbagai Pembelian di BNI Mobile Banking seperti Paket Data, Voucher
+                            Telepon Prabayar, Token Listrik, dan lainnya.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Investasi
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Ingin investasi tapi bingung mulai dari mana? BNI Mobile Banking bisa jadi pilihan tepat
+                            untuk Anda.
+
+                            Fiturnya lengkap, mudah, aman, dan yang pasti seamless banget! Bisa transaksi dimanapun dan
+                            kapanpun!
+
+                            Jika Anda belum memiliki rekening investasi di BNI, Anda dapat dengan mudah membuka rekening
+                            investasi di BNI Mobile Banking di menu “Rekeningku–Rekening Investasi”.
+
+                            Menu investasi di BNI Mobile Banking :
+
+                            Reksa Dana : pembelian baru (subscription), top up, penjualan/pencairan (redemption),
+                            switching antar produk/pengalihan, order status dan historitransaksi.
+                            SBN Ritel : pemesanan IPO SBN Ritel, pembayaran, riwayat transaksi, pengaturan rekening
+                            dana.
+                            Obligasi Sekunder : transaksi jual beli obligasi di pasar sekunder.
+                            Portofolio Investasi : total portofolio, total nilai, total return Anda.
+                            Rekening Investasi : menu untuk membuka dan maintenance rekening investasi yang dipakai
+                            transaksi Reksa Dana, SBN Ritel, Obligasi Sekunder dan saham, serta update profil risiko.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Dapatkan Sekarang Juga
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Unduh Di
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+
+    </html>
