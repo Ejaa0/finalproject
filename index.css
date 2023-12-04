@@ -1,0 +1,58 @@
+.icon-container {
+    text-align: center;
+    }
+
+    .icon {
+    font-size: 2rem;
+    margin: 10px;
+    cursor: pointer;
+    }
+#navigasi-iklan a:hover {
+    background-color:orangered;
+}
+
+#navigasi-iklan {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -80px;
+}
+
+
+.box-icon {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.center-content {
+    text-align: center;
+}
+
+#informasibni {
+    border-radius: 10px;    
+    font-size: 20px;
+}
+
+.tombol-bantuan {
+    color: white;
+    margin-left: 40px;
+    display: inline-block;
+    background-color: rgb(29, 154, 154);
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: medium;
+}
